@@ -1,0 +1,376 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.main{
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+
+.nav a{ 
+text-decoration: none;
+color: #000;
+}
+
+.nav-left { 
+float: left;
+margin-left: 20px
+} 
+
+.nav-right { 
+float: right;
+margin-right: 20px
+} 
+
+.sections {
+	float: left;
+	border: 1px solid #ccc;
+	height: auto;
+	width:110px;
+	margin-left: -40px;
+	margin-top: 5px;
+}
+
+#section {
+	position:relative;
+	top: -10px;
+	text-align: center;
+
+}
+
+.picto {
+	height: 30px;
+	width:30px;
+}
+
+#home-picto {
+	position: absolute;
+	top: 5px;
+	left : 140px;
+	margin-left: 5px;
+}
+
+#search-picto {
+	position: absolute;
+	top: 5px;
+	left : 230px;
+	margin-left: 5px;
+}
+
+#settings-picto {
+	position: absolute;
+	top: 10px;
+	right:45px;
+	margin-left: 5px;
+}
+
+#home {
+	position: absolute;
+	top: 10px;
+	left : 175px;
+	margin-left: 5px;
+
+}
+
+#search {
+	position: absolute;
+	top: 10px;
+	left : 265px;
+	margin-left: 5px;
+
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	left : 550px;
+	height: 30px;
+	width: auto;
+}
+
+#cta-button {
+	position: relative;
+	top: 10px;
+	right: 20px;
+	background-color: #326891;
+	font-size: 11px;
+	color: #FFF;
+	height:auto;
+	width: 	auto;
+	padding: 8px;
+}
+
+.article-list {
+
+position:relative;
+top: 40px;
+float:left;
+
+	
+}
+.case {
+width:220px;
+height: 95px;
+display: inline-block;
+font-size: 11px;
+text-decoration: none;
+border-right: 1px solid #000;
+float:left;
+margin-right: 10px;
+vertical-align:middle;
+overflow-wrap: break-word;
+}
+
+.case img {
+margin: 5px;
+vertical-align: middle;
+}
+
+
+.case a {
+text-decoration: none;
+color: #000;
+}
+
+.article {
+	position: absolute;
+	top: 190px;
+	width:1000px;
+}
+
+.article h4{
+	font-size: 14px;
+}
+
+.article h2 {
+	font-size: 34px;
+	font-style: italic;
+}
+
+
+#author, #date {
+	font-size: 11px;
+	float: left
+
+}
+
+#author {
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+hr {
+
+	margin-bottom: 15px;
+}
+
+#alanguth {
+width:1000px;
+margin-top : 30px;
+margin-left: 2px
+}
+
+#legend {
+	color: #666;
+	position:absolute;
+	font-size: 14px;
+	width: 570px;
+}
+
+#legend-author {
+	color: #999;
+	ont-size: 11px;
+}
+
+#main-text {
+	margin-top:100px;
+	margin-left: 50px;
+	width: 570px;
+	font-size: 17px;
+	line-height: 26px;
+}
+
+#link-article {
+	color: #326891;
+}
+
+#paragraph {
+	font-weight: bold;
+}
+
+.article-second-part{
+	width: 900px;
+}
+
+.article-second-part img{
+	width: 900px;
+}
+
+
+/*.visual p {
+font-size: 13px;
+}
+ 
+.visual span {
+font-weight: bold;
+}
+ 
+
+#texte1 {
+position: absolute;
+top: 87.5%;
+left: 0.0436%;
+width: 200px;
+}
+
+#texte2 {
+position: absolute;
+top: 87.5%;
+left: 25.5619%;
+width: 200px;
+}
+
+#texte3 {
+position: absolute;
+top: 87.5%;
+left: 51.0800%;
+width: 200px;
+}
+
+#texte4 {
+position: absolute;
+top: 87.5%;
+left: 76.5982%;
+width: 200px;
+}
+
+#texte5 {
+position: absolute;
+top: 95%;
+left: 0.0436%;
+width: 200px;
+}
+
+#texte6 {
+position: absolute;
+top: 95%;
+left: 25.5619%;
+width: 200px;
+}
+
+#texte7 {
+position: absolute;
+top: 95%;
+left: 51.0800%;
+width: 200px;
+}
+
+#texte8 {
+position: absolute;
+top: 95%;
+left: 76.5982%;
+width: 200px;
+}
+*/
+
+#inflation-author {
+color: #999;
+font-size: 13px;
+}
+
+.article-third-part{
+width: 570px;
+line-height: 26px;
+}
+
+.article-third-part p{
+font-size: 17px;
+
+}
+
+#video-legend, #cosmos-legend {
+	color: #666;
+	font-size: 13px;
+	margin: 0;
+}
+
+#video-author, #cosmos-author, #print {
+	color: #999;
+	font-size: 11px;
+}
+
+#cosmos-legend {
+	width: 675px;
+}
+
+#separation-line-end {
+position: absolute;
+border-top: 1px solid #000;
+width: 50px
+
+}
+
+#print {
+position: absolute;
+margin-top: 15px;
+width: 570px;
+text-decoration: none;
+}
+
+#print a {
+text-decoration: none;
+}
+
+.related-articles {
+	margin-top: 100px;
+	width: 800px;
+
+}
+
+.related {
+	margin-top: -50px;
+	width: 250px;
+	display: inline-block;
+	float: left;
+	overflow-wrap: break-word;
+}
+
+.related-articles li{
+list-style-type: none;
+}
+
+
+.related-articles span{
+	margin-left: 420px;
+	width:;
+	font-size: 11px;
+text-decoration: none;
+	color: #326891;
+	}
+
+.recommandation {
+	width: 800px;
+
+}
+
+/*.footer {
+position: absolute; 
+bottom: 0;
+}
+
+.colomn {
+	position:relative;
+
+}*/
+
+
+
